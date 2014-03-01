@@ -1,0 +1,11 @@
+{
+    "name": "mpd-random-album",
+    "description": "A simple daemon for adding a random album to the playlist when the playlist ends.",
+    "version": "1.0.0",
+    "private": true,
+    "dependencies": {
+        "coffee-script": "1.7.1",
+        "mpd": "1.0.2"
+    }
+}
+
