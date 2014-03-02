@@ -2,8 +2,8 @@ config = require("./config")
 mpd = require("mpd")
 
 client = mpd.connect
-    host: config.host
-    port: config.port
+    host: config.mpd.host
+    port: config.mpd.port
 
 whenPlayingLastSong = (callback) ->
     cmd = mpd.cmd("status", [])

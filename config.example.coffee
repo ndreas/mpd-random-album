@@ -1,5 +1,6 @@
 config =
-    host: process.env.HOST || "localhost"
-    port: process.env.PORT || 6600
+    mpd:
+        host: process.env.MPD_HOST || "volumio.local"
+        port: process.env.MPD_PORT || 6600
 
 module.exports = config
